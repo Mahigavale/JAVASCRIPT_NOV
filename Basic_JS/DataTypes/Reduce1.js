@@ -1,8 +1,8 @@
 
 
-let arr=[3,2,4,5,6];
+let arr=[3,4,12,13];
 
-console.log(arr.reduceRight(minus));
+console.log(arr.reduce(minus));
 
 //Reduce => APPLIES CALLBACK FUNCTION AS IT IS IN THE SAME ORDER.
 //reduceRight()=> Applies the callback function in the descenfing order.
