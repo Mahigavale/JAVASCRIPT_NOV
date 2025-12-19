@@ -32,7 +32,18 @@ City.getinfo();
 console.log(City);
 
 
-
-
-
 console.log(City);
+
+
+console.log("*************");
+
+  for(v in Object.values(City))
+  {
+   console.log(v);
+   
+  }
+
+
+
+
+
