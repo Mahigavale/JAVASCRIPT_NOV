@@ -5,15 +5,20 @@
  */
 
 
+console.log("hii");
 
-   setTimeout(()=>{
-    console.log("hii");
-    
-   },4000);
 
+   setTimeout(demo,4000,"mahesh");
+
+   console.log("helllooo");
+   
  
+   function demo(name)
+   {
+    console.log("hello:::"+name);
+    
+   }
 
-   console.log("hello");
    
 
 
